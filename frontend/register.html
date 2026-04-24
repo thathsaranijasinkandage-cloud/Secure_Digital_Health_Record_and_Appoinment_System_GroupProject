@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>CareConnect - Register</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -15,29 +15,37 @@
     <form>
 
         <select required>
-            <option value="">Select Role</option>
+            <option value="">Register as</option>
             <option value="patient">Patient</option>
             <option value="doctor">Doctor</option>
         </select>
-        
+
         <input type="text" placeholder="Full Name" required>
         <input type="text" placeholder="Address" required>
         <input type="number" placeholder="Age" required>
 
         <select>
+            <option value="">Select Gender</option>
             <option>Male</option>
             <option>Female</option>
         </select>
 
         <input type="text" placeholder="Phone Number" required>
         <input type="email" placeholder="Email" required>
+
         <input type="password" placeholder="Password" required>
         <input type="password" placeholder="Confirm Password" required>
 
         <button type="submit" class="btn">Register</button>
 
-        <p>Already have an account? <a href="login.html" >Login</a></p>
+        <p>Already have an account? <a href="login.html">Login</a></p>
+
     </form>
+
+    <div class="role-box">
+        <p>🧑‍⚕️ Register to connect with our doctors</p>
+    </div>
+
 </div>
 
 </body>

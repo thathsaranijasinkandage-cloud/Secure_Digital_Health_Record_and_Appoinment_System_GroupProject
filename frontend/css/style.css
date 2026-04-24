@@ -202,3 +202,35 @@ td:nth-child(4):contains("Pending") {
 td:nth-child(4):contains("Approved") {
     color: green;
 }
+
+/* Medical Records  */
+.medical-container {
+    width: 700px;
+}
+
+
+.search-box {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+
+.records-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.records-table th,
+.records-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.records-table th {
+    background: #007bff;
+    color: white;
+}
