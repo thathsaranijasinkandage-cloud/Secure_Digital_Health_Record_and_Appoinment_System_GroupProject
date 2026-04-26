@@ -1,10 +1,9 @@
 # Secure_Digital_Health_Record_and_Appoinment_System_GroupProject
 Healthcare web application project
-Database Design
+## Database Design
 Database Member: Ghazaleh Afarid
-Collections
 
-Users
+### Users Collection
 -name
 -email
 -password
@@ -14,23 +13,22 @@ Users
 -gender
 -createdAt
 
-For doctors:
+### Doctor Fields:
 -specialty
--doctorId
 
-Appointments:
+### Appointments Collection
 -patientId
 -doctorId
--docrotName
+-doctorName
 -doctorSpecialty
 -date
 -time
--status
+-status (pending / approved / cancelled / completed)
 -symptoms
--appointmentType
+-appointmentType (Normal / Emergency)
 -cancelledAt
 
-Medical Records:
+### MedicalRecords Collection
 -patientId
 -doctorId
 -date
@@ -39,11 +37,11 @@ Medical Records:
 -notes
 -createdAt
 
-Relationships:
+## Relationships:
 - One patient → many appointments
 - One doctor → many appointments
 - One patient → many medical records
 
-Optimization:
+## Optimization:
 -use patientId and doctorId for fast queries
 -store doctorName to avoid extra queries
