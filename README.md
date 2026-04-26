@@ -43,5 +43,5 @@ Database Member: Ghazaleh Afarid
 - One patient → many medical records
 
 ## Optimization:
--use patientId and doctorId for fast queries
--store doctorName to avoid extra queries
+- use patientId and doctorId for fast queries
+- store doctorName to avoid extra queries
