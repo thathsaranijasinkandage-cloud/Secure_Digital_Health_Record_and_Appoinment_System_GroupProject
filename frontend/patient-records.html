@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Records</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="dashboard">
+
+    <div class="sidebar">
+        <h2>CareConnect</h2>
+        <ul>
+            <li><a href="doctor-dashboard.html">Dashboard</a></li>
+            <li><a href="manage-appointments.html">Manage Appointments</a></li>
+            <li><a href="#">Patient Records</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+    </div>
+
+    <div class="main">
+
+        <h1>Patient Records</h1>
+
+        <input type="text" placeholder="Search patient..." class="search-box">
+
+        <table class="appointments-table">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Last Visit</th>
+                <th>Actions</th>
+            </tr>
+
+            <tr>
+                <td>John Doe</td>
+                <td>28</td>
+                <td>2026-04-20</td>
+                <td>
+                    <button class="edit-btn">View</button>
+                    <button class="cancel-btn">Update</button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Mary Silva</td>
+                <td>34</td>
+                <td>2026-04-18</td>
+                <td>
+                    <button class="edit-btn">View</button>
+                    <button class="cancel-btn">Update</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>
