@@ -6,7 +6,6 @@ body {
     
 }
 
-
 h1 {
     color: #007bff;
     margin-bottom: 5px;
@@ -25,7 +24,7 @@ h3 {
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-    overflow: hidden; /* optional */
+    overflow: hidden; 
 }
 
 .small-container {
@@ -39,8 +38,6 @@ h3 {
 * {
     box-sizing: border-box;
 }
-
-
 
 .options {
     text-align: left;
@@ -64,7 +61,7 @@ input, select {
 
 .btn {
     display: inline-block;
-    width: 100%; /* full width like button */
+    width: 100%; 
     padding: 12px;
     background: #007bff;
     color: white;
@@ -82,7 +79,6 @@ input, select {
     display: flex;
 }
 
-/* Sidebar */
 .sidebar {
     width: 220px;
     height: 100vh;
@@ -109,14 +105,12 @@ input, select {
     text-decoration: none;
 }
 
-/* Main Content */
 .main {
     flex: 1;
     padding: 30px;
     background: #f4f6f9;
 }
 
-/* Cards */
 .cards {
     display: flex;
     gap: 20px;
@@ -160,7 +154,6 @@ textarea {
     color: white;
 }
 
-/* Buttons */
 .edit-btn {
     background: #28a745;
     color: white;
@@ -203,11 +196,9 @@ td:nth-child(4):contains("Approved") {
     color: green;
 }
 
-/* Medical Records  */
 .medical-container {
     width: 700px;
 }
-
 
 .search-box {
     width: 100%;
@@ -216,7 +207,6 @@ td:nth-child(4):contains("Approved") {
     border-radius: 8px;
     border: 1px solid #ccc;
 }
-
 
 .records-table {
     width: 100%;
@@ -235,3 +225,100 @@ td:nth-child(4):contains("Approved") {
     color: white;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #0d6efd;
+    color: white;
+}
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.login-btn {
+    padding: 6px 14px;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn:hover {
+    background: white;
+    color: #0d6efd;
+}
+.signup-btn {
+    background: white;
+    color: #0d6efd !important; 
+    padding: 6px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.signup-btn:hover {
+    background: #e3f2fd;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #0d47a1, #1976d2); 
+    color: white;
+}
+
+.hero h1 {
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+.hero p {
+    color: #e3f2fd; 
+}
+
+.hero-btn {
+    display: inline-block;   
+    width: auto;             
+    padding: 10px 25px;
+    background: white;
+    color: #0d47a1;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hero-btn:hover {
+    background: #e3f2fd;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #f5f7fa;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0d6efd;
+    color: white;
+}
